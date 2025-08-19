@@ -45,12 +45,10 @@ Abra o MySQL Workbench ou qualquer cliente SQL de sua preferência.
 Execute os scripts na seguinte ordem:
 
 create_tables.sql
-
 insert_data.sql
-
 queries.sql
-
 update_delete.sql
+
 
 Explore as tabelas e teste suas próprias consultas para praticar.
 
@@ -68,15 +66,11 @@ Compreender a organização de dados em tabelas e relacionamentos.
 
 Contribuições são bem-vindas! Para contribuir:
 
-Faça um fork do repositório.
-
-Crie uma branch com sua feature: git checkout -b feature/nome-da-feature
-
-Faça commit das alterações: git commit -m 'Adiciona nova feature'
-
-Envie para o branch original: git push origin feature/nome-da-feature
-
-Abra um Pull Request.
+# Faça um fork do repositório
+git checkout -b feature/nome-da-feature
+git commit -m 'Adiciona nova feature'
+git push origin feature/nome-da-feature
+# Abra um Pull Request
 
 📝 Licença
 
