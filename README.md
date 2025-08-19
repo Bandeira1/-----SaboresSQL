@@ -1,40 +1,83 @@
-# 🍽️ SaboresSQL
 
-**SaboresSQL** é um projeto educacional que reúne comandos SQL aplicados a um sistema de restaurante fictício. Ele simula operações comuns em bancos de dados como consultas, filtros, atualizações e classificações, sendo ideal para quem quer praticar SQL em um cenário realista e contextualizado.
+🍽️ SaboresSQL
 
-## 📁 Estrutura do banco de dados
+Projeto educacional de SQL para gerenciamento de um restaurante fictício. Prática de consultas, filtros, atualizações e exclusões de dados.
 
-O banco de dados simulado chama-se `restaurante` e possui as seguintes tabelas:
+📝 Descrição
 
-- `pedidos`: registros de pedidos realizados
-- `clientes`: dados dos clientes
-- `produtos`: cardápio de produtos
-- `info_produtos`: ingredientes e detalhes adicionais
-- `funcionarios`: informações dos colaboradores
+O SaboresSQL simula um sistema de banco de dados de restaurante.
+Foi desenvolvido para praticar comandos SQL fundamentais, incluindo:
 
-## 📌 Exemplos de comandos SQL incluídos
+💾 Criação e manipulação de tabelas (CREATE, INSERT, UPDATE, DELETE)
 
-- Filtros com `WHERE`, `LIKE`, `IN` e `BETWEEN`
-- Atualização de dados com `UPDATE`
-- Tratamento de valores nulos com `IS NULL` e `COALESCE`
-- Uso de `CASE` para classificação condicional
+🔍 Consultas e filtros (SELECT, WHERE, ORDER BY)
 
-## 🎯 Objetivos do projeto
+🔗 Operações com junções (JOIN)
 
-- Explorar funcionalidades essenciais da linguagem SQL
-- Simular um ambiente de dados do mundo real
-- Praticar lógica de consultas e transformações em dados relacionais
+📊 Funções agregadas (SUM, COUNT, AVG)
 
-## 🛠️ Tecnologias
+Ideal para iniciantes que querem reforçar conceitos de SQL em um cenário realista.
 
-- SQL padrão (compatível com MySQL, MariaDB e similares)
+⚙️ Tecnologias
 
-## 🚀 Como usar
+MySQL (ou outro SGBD compatível com SQL)
 
-1. Crie um banco de dados chamado `restaurante`
-2. Crie as tabelas necessárias (ou adapte às suas)
-3. Execute os comandos do arquivo `.sql` fornecido em seu ambiente SQL
+SQL básico e avançado
 
-## 📚 Licença
+🗂️ Estrutura do Projeto
+SaboresSQL/
+├── scripts/
+│   ├── create_tables.sql        # Criação das tabelas
+│   ├── insert_data.sql          # Inserção de dados de exemplo
+│   ├── queries.sql              # Consultas e filtros
+│   └── update_delete.sql        # Atualizações e exclusões
+└── README.md                    # Documentação do projeto
 
-Este projeto é livre para uso educacional e pessoal.
+🚀 Como Usar
+
+Clone o repositório:
+
+git clone https://github.com/Bandeira1/SaboresSQL.git
+
+
+Abra o MySQL Workbench ou qualquer cliente SQL de sua preferência.
+
+Execute os scripts na seguinte ordem:
+
+create_tables.sql
+
+insert_data.sql
+
+queries.sql
+
+update_delete.sql
+
+Explore as tabelas e teste suas próprias consultas para praticar.
+
+📚 Aprendizado
+
+Com este projeto, você irá:
+
+Fixar conceitos de SQL em um cenário prático.
+
+Praticar a criação de consultas eficientes.
+
+Compreender a organização de dados em tabelas e relacionamentos.
+
+🤝 Contribuição
+
+Contribuições são bem-vindas! Para contribuir:
+
+Faça um fork do repositório.
+
+Crie uma branch com sua feature: git checkout -b feature/nome-da-feature
+
+Faça commit das alterações: git commit -m 'Adiciona nova feature'
+
+Envie para o branch original: git push origin feature/nome-da-feature
+
+Abra um Pull Request.
+
+📝 Licença
+
+Este projeto está sob a licença MIT.
