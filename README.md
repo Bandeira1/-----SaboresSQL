@@ -37,7 +37,7 @@ SaboresSQL/
 
 Clone o repositório:
 
-git clone https://github.com/Bandeira1/SaboresSQL.git
+git clone https://github.com/Bandeira1/-----SaboresSQL.git
 
 
 Abra o MySQL Workbench ou qualquer cliente SQL de sua preferência.
